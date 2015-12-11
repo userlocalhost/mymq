@@ -8,7 +8,7 @@ How to use
 ==========
 If you want to send something data to a broker 'e1' like folloing.
 
-![](http://userlocalhost2000.github.io/e2e_binding/img/model.png)
+![](http://userlocalhost2000.github.io/mymq/img/model.png)
 
 To publish a message, you can do it as this.
 The arguments of `e1` and `r1` replesent exchange-name and routing-key, respectively.
