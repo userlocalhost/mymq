@@ -2,9 +2,9 @@ require 'bunny'
 
 module MyMQ
   def self.channel_open(&block) 
-    c = Bunny.new(:host => 'mqhost',
-                  :user => 'user',
-                  :password => 'password')
+    c = Bunny.new(:host => 'localhost',
+                  :user => 'guest',
+                  :password => 'guest')
     c.start
     ch = c.create_channel
   
